@@ -28,8 +28,8 @@ COPY ./mysql_commands /mysql_commands
 # Copy the startup script
 COPY ./mariadb-entrypoint.sh /mariadb-entrypoint.sh
 
-#EXPOSE 3306
+EXPOSE 3306
 
-#VOLUME /var/lib/mysql
+VOLUME /var/lib/mysql
 
 #ENTRYPOINT ["/mariadb-entrypoint.sh"]
