@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS test;
+DELETE FROM mysql.user WHERE user='';
+DELETE FROM mysql.db WHERE Db='test';
+FLUSH PRIVILEGES;
