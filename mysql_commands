@@ -1,6 +1,0 @@
-UPDATE mysql.user SET Password=PASSWORD('root') WHERE User='root';
-DROP DATABASE IF EXISTS test;
-DELETE FROM mysql.user WHERE user='';
-DELETE FROM mysql.db WHERE Db='test';
-FLUSH PRIVILEGES;
-EXIT;
