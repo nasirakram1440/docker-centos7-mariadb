@@ -1,6 +1,6 @@
-# +++++++++++++++++++++++++++++++++++++++++++++
-# MariaDB on Centos7 			      +
-# +++++++++++++++++++++++++++++++++++++++++++++
+==============================================
+* MariaDB on Centos7			     *
+==============================================
 
 HOW TO BAKE A NEW IMAGE BASED ON THE DOCKER FILE
 - docker build -t image_name:tag_name .
